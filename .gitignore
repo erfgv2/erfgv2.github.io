@@ -1,0 +1,9 @@
+public
+resources
+.hugo_build.lock
+hugo.exe
+_build_tmp
+_pub_clone
+_public_git_bak
+_verify
+_old_git

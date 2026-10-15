@@ -1,0 +1,7 @@
+{{- $src := .Get "src" -}}
+{{- $w := .Get "w" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- with .Page.Resources.GetMatch $src -}}
+  {{- $img := .Resize (printf "%sx q95" $w) -}}
+  <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $alt }}" style="max-width:100%;height:auto;">
+{{- end -}}
