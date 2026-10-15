@@ -16,7 +16,7 @@ image = "matt-le-SJSpo9hQf7s-unsplash.jpg"
 math = true
 +++
 
-# rsa  
+# 几种简单密码  
 1.仿射密码  
 加密 $e=(ax+b) \bmod 26$  
 解密 $d=a^{-1}(y-b) \bmod 26$  
@@ -41,9 +41,36 @@ $$1,\;2^2 \bmod p,\;\cdots,\;\left[\frac{p-1}{2}\right]^2 \bmod p$$
 # 勒让德符号  
 $\left(\dfrac{n}{p}\right) = \pm 1$，$p$ 为奇素数  
 对任意奇素数 $p$，有：
-$$\left(\frac{-1}{p}\right) = (-1)^{\frac{p-1}{2}} = \begin{cases} 1, & \text{若 } p \equiv 1 \pmod 4 \\ -1, & \text{若 } p \equiv -1 \pmod 4 \end{cases}$$
+$$\left(\frac{-1}{p}\right) = (-1)^{\frac{p-1}{2}} = \begin{cases} 1, & \text{若 } p \equiv 1 \pmod 4 \\ -1, & \text{若 } p \equiv -1 \pmod 4 \end{cases}$$  
+$$
+\left(\frac{2}{p}\right)
+= (-1)^{\frac{p^2-1}{8}}
+= \begin{cases}
+1, & \text{若 } p \equiv \pm 1 \pmod 8 \\
+-1, & \text{若 } p \equiv \pm 3 \pmod 8\end{cases}$$
+  
+二次互反律：  
+pq为奇素数  
+一个便于证明的引理  
+$\left(\frac{n}{p}\right) = (-1)^{T(n,p)}, \quad \text{其中 } T(n,p) = \sum_{k=1}^{\frac{p-1}{2}} \left\lfloor \frac{kn}{p} \right\rfloor
+$  
+二次互换率  
+$
+\left( \frac{p}{q} \right) = \left( \frac{q}{p} \right) (-1)^{\frac{p-1}{2} \cdot \frac{q-1}{2}}
+$  
+证明思路：先设置(p-1)/2*(q-1)/2个整点，易知qx=py与所有整点不相交，并通过这一直线将整点分为两组,两组整点数为：  
+$\sum_{k=1}^{\frac{p-1}{2}} \left\lfloor \frac{qn}{p} \right\rfloor$  $\sum_{k=1}^{\frac{q-1}{2}} \left\lfloor \frac{pn}{q} \right\rfloor$，可记为T(q,p)与T(p,q)  
+$(-1)^{T(p,q)}(-1)^T{(q,p)}=(-1)^{p-1/2q-1/2}$  
+由引理得证  
+雅可比符号：  
 $\left(\dfrac{n}{m}\right) = \prod_{}^{} \left(\dfrac{n}{pi}\right)$  
-m=$p_1$$p_2$...$p_n$  
+m=$p_1$$p_2$...$p_n$m,n互质，且$p_i$为素数  
+雅可比符号作为勒让德符号的推广，与二次互换率辅助计算  
+**很多定理运用不熟练(其实说根本不会用也行)，还有python~0 还有......算了，睡觉明天在搞吧**  
+周五一天课......哎，我明天发不就行了  
+**周末完善一下原根和二次剩余，尽量理解->运用**  
+**还有下周工作日再学屁眼语言，完成剩下的题目**  
+
 # 原根  
 1.整数阶gcd(a,m)=1,使$a^l$≡1(modm)成立的最小整数l为a关于m的阶，记$ord_m$a  
 设$ord_m$b=l，则$a^l$≡1(modm)当且仅当l整除n
