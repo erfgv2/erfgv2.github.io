@@ -1,9 +1,16 @@
-public
+# Hugo generated caches (NOT the deployed output)
 resources
+
+# Hugo lock file
 .hugo_build.lock
+
+# Local Hugo binary (~90 MB, never commit)
 hugo.exe
+
+# Temporary / scratch directories
+_precheck
+_verify
 _build_tmp
 _pub_clone
 _public_git_bak
-_verify
 _old_git

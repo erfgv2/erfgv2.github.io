@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Themes on erfgv2</title><link>https://erfgv2.github.io/tags/themes/</link><description>Recent content in Themes on erfgv2</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Example Person</copyright><lastBuildDate>Sat, 26 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://erfgv2.github.io/tags/themes/index.xml" rel="self" type="application/rss+xml"/><item><title>同余的简单理解（真的很简单</title><link>https://erfgv2.github.io/p/%E5%90%8C%E4%BD%99%E7%9A%84%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3%E7%9C%9F%E7%9A%84%E5%BE%88%E7%AE%80%E5%8D%95/</link><pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate><guid>https://erfgv2.github.io/p/%E5%90%8C%E4%BD%99%E7%9A%84%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3%E7%9C%9F%E7%9A%84%E5%BE%88%E7%AE%80%E5%8D%95/</guid><description>&lt;img src="https://erfgv2.github.io/p/%E5%90%8C%E4%BD%99%E7%9A%84%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3%E7%9C%9F%E7%9A%84%E5%BE%88%E7%AE%80%E5%8D%95/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post 同余的简单理解（真的很简单" />&lt;h2 id="_">≡_≡
+&lt;/h2>&lt;p>a≡b(mod n)→a=b+nk&lt;br>
+对称性，传递性，相加相乘&lt;br>
+若ac≡bc（mod n）则a≡b(mod n/(n,c))&lt;br>
+a≡b(mod n&lt;sub>i&lt;/sub>)则a≡b(mod [n&lt;sub>1&lt;/sub>,&amp;hellip;n&lt;sub>k&lt;/sub>])&lt;br>
+中括号表示最小公倍数，小括号最大公约数&lt;/p>
+&lt;h2 id="例题能看懂的">例题（能看懂的
+&lt;/h2>&lt;p>a+b+c=0,d=a&lt;sup>1999&lt;/sup>+b&lt;sup>1999&lt;/sup>+c&lt;sup>1999&lt;/sup>,证明|d|不是素数&lt;/p>
+&lt;p>a&lt;sup>1999&lt;/sup>≡a（mod 2）&lt;br>
+d=a&lt;sup>1999&lt;/sup>+b&lt;sup>1999&lt;/sup>+c&lt;sup>1999&lt;/sup>≡a+b+c(mod 2),即 2∣d&lt;br>
+{u&lt;sup>3&lt;/sup>-u=(u+1)u(u-1) ，u&lt;sup>1999&lt;/sup>≡&amp;hellip;u(mod 3)}&lt;br>
+d≡a+b+c≡0(mod 3)6∣d ，d不是素数&lt;/p>
+&lt;h1 id="就是很简单的了解一下">就是很简单的了解一下
+&lt;/h1>&lt;p>&lt;a class="link" href="https://google.com" target="_blank" rel="noopener"
+>&lt;img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png"
+loading="lazy"
+alt="Google"
+>&lt;/a>&lt;/p></description></item></channel></rss>
