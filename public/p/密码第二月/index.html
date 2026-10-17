@@ -24,13 +24,13 @@ $$\left(\frac{-1}{p}\right) = (-1)^{\frac{p-1}{2}} = \begin{cases} 1, & \text{�
 -1, & \text{若 } p \equiv \pm 3 \pmod 8\end{cases}$$</p><p>二次互反律：<br>pq为奇素数<br>一个便于证明的引理<br>$\left(\frac{n}{p}\right) = (-1)^{T(n,p)}, \quad \text{其中 } T(n,p) = \sum_{k=1}^{\frac{p-1}{2}} \left\lfloor \frac{kn}{p} \right\rfloor
 $<br>二次互换率<br>$
 \left( \frac{p}{q} \right) = \left( \frac{q}{p} \right) (-1)^{\frac{p-1}{2} \cdot \frac{q-1}{2}}
-$<br>证明思路：先设置(p-1)/2*(q-1)/2个整点，易知qx=py与所有整点不相交，并通过这一直线将整点分为两组,两组整点数为：<br>$\sum_{k=1}^{\frac{p-1}{2}} \left\lfloor \frac{qn}{p} \right\rfloor$ $\sum_{k=1}^{\frac{q-1}{2}} \left\lfloor \frac{pn}{q} \right\rfloor$，可记为T(q,p)与T(p,q)<br>$(-1)^{T(p,q)}(-1)^T{(q,p)}=(-1)^{p-1/2q-1/2}$<br>由引理得证<br>雅可比符号：<br>$\left(\dfrac{n}{m}\right) = \prod_{}^{} \left(\dfrac{n}{pi}\right)$<br>m=$p_1$$p_2$&mldr;$p_n$m,n互质，且$p_i$为素数<br>雅可比符号作为勒让德符号的推广，与二次互换率辅助计算<br><strong>很多定理运用不熟练(其实说根本不会用也行)，还有python~0 还有&mldr;&mldr;算了，睡觉明天在搞吧</strong><br>周五一天课&mldr;&mldr;哎，我明天发不就行了<br><strong>周末完善一下原根和二次剩余，尽量理解->运用</strong><br><strong>还有下周工作日再学屁眼语言，完成剩下的题目</strong><br>9.15</p><h1 id=原根>原根</h1><ol><li><p>整数阶<br>gcd(a,m)=1,使$a^l$≡1(modm)成立的最小整数l为a关于m的阶，记$ord_m$a<br>设$ord_m$b=l，则$a^l$≡1(modm)当且仅当l整除n
+$<br>证明思路：先设置(p-1)/2*(q-1)/2个整点，易知qx=py与所有整点不相交，并通过这一直线将整点分为两组,两组整点数为：<br>$\sum_{k=1}^{\frac{p-1}{2}} \left\lfloor \frac{qn}{p} \right\rfloor$ $\sum_{k=1}^{\frac{q-1}{2}} \left\lfloor \frac{pn}{q} \right\rfloor$，可记为T(q,p)与T(p,q)<br>$(-1)^{T(p,q)}(-1)^T{(q,p)}=(-1)^{p-1/2q-1/2}$<br>由引理得证<br>雅可比符号：<br>$\left(\dfrac{n}{m}\right) = \prod_{}^{} \left(\dfrac{n}{pi}\right)$<br>m=$p_1$$p_2$&mldr;$p_n$m,n互质，且$p_i$为素数<br>雅可比符号作为勒让德符号的推广，与二次互换率辅助计算<br><strong>很多定理运用不熟练(其实说根本不会用也行)，还有python~0 还有&mldr;&mldr;算了，睡觉明天在搞吧</strong><br>周五一天课&mldr;&mldr;哎，我明天发不就行了<br><strong>周末完善一下原根和二次剩余，尽量理解->运用</strong><br><strong>还有下周工作日再学屁眼语言，完成剩下的题目</strong><br>9.15</p><h1 id=原根>原根</h1><ol><li><p>整数阶<br>gcd(a,m)=1,使$a^l$≡1(modm)成立的最小整数l为a关于m的阶，记$ord_m$a<br>设$ord_m$a=l，则$a^l$≡1(modm)当且仅当l整除n
 ,特别地，l整除
 φ(m)</p></li><li><p>原根<br>设 (m) 是正整数，((g,m)=1)。如果
 $
 \operatorname{ord}_m g = \varphi(m)
 $
-那么称 (g) 为模 (m) 的一个原根</p></li><li><p>设正整数m，g为m原根当且仅当{$g,g^2,&mldr;g^{\varphi(n)}$}组成模m的一个既约剩余系</p></li><li><p>整数 $m > 1$ 有原根 $\iff$ $m$ 为 $2, 4, p^a, 2p^a$ 之一（其中 $p$ 为奇素数，$a$ 为正整数）<br>也就是只有这几种形式的数才能有原根</p></li><li><p>判断<br>设 $\gcd(g, m) = 1$，记 $\varphi(m)$ 的不同素因子为 $q_1, q_2, \dots, q_k$，则 $g$ 是模 $m$ 的原根，当且仅当对每个 $q_i$ 都有$
+那么称 (g) 为模 (m) 的一个原根</p></li><li><p>设正整数m，g为m原根当且仅当{$g,g^2,&mldr;g^{\varphi(m)}$}组成模m的一个既约剩余系</p></li><li><p>整数 $m > 1$ 有原根 $\iff$ $m$ 为 $2, 4, p^a, 2p^a$ 之一（其中 $p$ 为奇素数，$a$ 为正整数）<br>也就是只有这几种形式的数才能有原根</p></li><li><p>判断<br>设 $\gcd(g, m) = 1$，记 $\varphi(m)$ 的不同素因子为 $q_1, q_2, \dots, q_k$，则 $g$ 是模 $m$ 的原根，当且仅当对每个 $q_i$ 都有$
 g^{\varphi(m)/q_i} \not\equiv 1 \pmod m.
 $</p></li></ol><p>这玩意好抽象啊,可能前面学的过于简单了</p><h1 id=题目>题目</h1><p>1）</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
 </span><span class=lnt>2

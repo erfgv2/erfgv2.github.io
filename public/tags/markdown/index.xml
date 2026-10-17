@@ -61,7 +61,7 @@ m=$p_1$$p_2$&amp;hellip;$p_n$m,n互质，且$p_i$为素数&lt;br>
 &lt;li>
 &lt;p>整数阶&lt;br>
 gcd(a,m)=1,使$a^l$≡1(modm)成立的最小整数l为a关于m的阶，记$ord_m$a&lt;br>
-设$ord_m$b=l，则$a^l$≡1(modm)当且仅当l整除n
+设$ord_m$a=l，则$a^l$≡1(modm)当且仅当l整除n
 ,特别地，l整除
 φ(m)&lt;/p>
 &lt;/li>
@@ -74,7 +74,7 @@ $
 那么称 (g) 为模 (m) 的一个原根&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>设正整数m，g为m原根当且仅当{$g,g^2,&amp;hellip;g^{\varphi(n)}$}组成模m的一个既约剩余系&lt;/p>
+&lt;p>设正整数m，g为m原根当且仅当{$g,g^2,&amp;hellip;g^{\varphi(m)}$}组成模m的一个既约剩余系&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>整数 $m &amp;gt; 1$ 有原根 $\iff$ $m$ 为 $2, 4, p^a, 2p^a$ 之一（其中 $p$ 为奇素数，$a$ 为正整数）&lt;br>
