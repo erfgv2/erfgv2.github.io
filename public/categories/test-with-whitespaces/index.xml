@@ -50,12 +50,7 @@ $(-1)^{T(p,q)}(-1)^T{(q,p)}=(-1)^{p-1/2q-1/2}$&lt;br>
 雅可比符号：&lt;br>
 $\left(\dfrac{n}{m}\right) = \prod_{}^{} \left(\dfrac{n}{pi}\right)$&lt;br>
 m=$p_1$$p_2$&amp;hellip;$p_n$m,n互质，且$p_i$为素数&lt;br>
-雅可比符号作为勒让德符号的推广，与二次互换率辅助计算&lt;br>
-&lt;strong>很多定理运用不熟练(其实说根本不会用也行)，还有python~0 还有&amp;hellip;&amp;hellip;算了，睡觉明天在搞吧&lt;/strong>&lt;br>
-周五一天课&amp;hellip;&amp;hellip;哎，我明天发不就行了&lt;br>
-&lt;strong>周末完善一下原根和二次剩余，尽量理解-&amp;gt;运用&lt;/strong>&lt;br>
-&lt;strong>还有下周工作日再学屁眼语言，完成剩下的题目&lt;/strong>&lt;br>
-9.15&lt;/p>
+雅可比符号作为勒让德符号的推广，与二次互换率辅助计算&lt;/p>
 &lt;h1 id="原根">原根
 &lt;/h1>&lt;ol>
 &lt;li>
@@ -122,4 +117,8 @@ $&lt;/p>
 S≡(14^$e_1$$e_2$-15$e_1$$e_2$)q^$e_1$$e_2$(modN)&lt;br>
 最后求q为s，N最大公约数&lt;/p>
 &lt;h1 id="虾币币">虾币币
-&lt;/h1></description></item></channel></rss>
+&lt;/h1>&lt;p>&lt;strong>很多定理运用不熟练(其实说根本不会用也行)，还有python~0 还有&amp;hellip;&amp;hellip;算了，睡觉明天在搞吧&lt;/strong>&lt;br>
+周五一天课&amp;hellip;&amp;hellip;哎，我明天发不就行了&lt;br>
+&lt;strong>周末完善一下原根和二次剩余，尽量理解-&amp;gt;运用&lt;/strong>&lt;br>
+&lt;strong>还有下周工作日再学屁眼语言，完成剩下的题目&lt;/strong>&lt;br>
+9.15&lt;/p></description></item></channel></rss>
